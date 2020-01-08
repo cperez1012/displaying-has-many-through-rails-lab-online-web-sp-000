@@ -1,5 +1,5 @@
 <!-- app/views/appointment/show.html.erb --> -->
 <h1> <%= link_to @appointment.doctor.name, doctor_path(@appointment.doctor) %></h1>
 <h1> <%= link_to @appointment.patient.name, patient_path(@appointment.patient) %></h1>
-<h1> <%= link_to @appointment.appointment_datetime.strftime("%B %e, %Y at %H:%M"), doctor_path(@appointment.doctor) %></h1>
-<h1> <%= link_to @appointment.appointment_datetime.strftime("%B %e, %Y at %H:%M"), patient_path(@appointment.patient) %></h1>
+<h1> <%= link_to @appointment.appointment_datetime.strftime("%B %e, %Y at %H:%M") %></h1>
+<h1> <%= link_to @appointment.appointment_datetime.strftime("%B %e, %Y at %H:%M") %></h1>
